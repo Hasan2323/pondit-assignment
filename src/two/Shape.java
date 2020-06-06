@@ -32,7 +32,7 @@ class Rectangle extends Shape {
 
 class Circle extends Shape {
 
-    final double pi = Math.PI;
+    final double PI = Math.PI;
     private double radius;
 
     public Circle() {
@@ -45,12 +45,12 @@ class Circle extends Shape {
 
     @Override
     public double getArea() {
-        return (pi * Math.pow(radius, 2));
+        return (PI * Math.pow(radius, 2));
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * pi * radius;
+        return 2 * PI * radius;
     }
 }
 
